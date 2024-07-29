@@ -1,0 +1,40 @@
+{
+  "name": "gulp-start",
+  "version": "1.0.0",
+  "description": "start gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "gulp": "gulp --gulpfile gulpfile.mjs --require esm"
+  },
+  "author": "Rubaka-pl",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "del": "^7.1.0",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "normalize.css": "^8.0.1",
+    "slick-carousel": "^1.8.1",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "fullpage.js": "^4.0.25",
+    "gulp-babel": "^8.0.0",
+    "jquery": "^3.7.1",
+    "sass": "^1.77.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
